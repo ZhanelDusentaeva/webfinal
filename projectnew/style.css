@@ -1,0 +1,469 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", "Oranienbaum";
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: rgb(142, 207, 44);
+    
+}
+   /* header */ 
+.main_header{
+      padding: 15px;
+      text-align: center;
+      background-color: #2F2F2F;
+}
+.nav_ul{
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.ul_li a {
+    position: relative;
+    text-align: center;
+    padding: 0px 70px 0 70px;
+    font-size: 30px;
+    justify-content: center;
+    text-decoration: none;
+    color: white; 
+}
+.ul_li a:hover {
+    font-size: 31px;
+    text-decoration: underline;
+    color: rgb(147, 233, 248);
+}
+
+
+  /* search */
+input[type=text] {
+    width: 30% ;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: white;
+    background-image: url(photos/image1.png); 
+    background-position: 10px 10px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding: 20px 20px 20px 50px;
+    transition: 0.8s;
+}
+  
+input[type=text]:focus {
+    width: 100%;
+}
+
+/* Man's Sport clothes */
+.glav1{
+    background-image: url(photos/krosovki02.jpg);
+    background-position-y: -200px;
+    background-position-x: -100px;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 20px 5px 0px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+}
+.glav1:hover{
+    background-image: url(photos/krosovki03.jpg);
+    background-position-y: -720px;
+    background-position-x: -500px;
+    border: 1px solid rgb(255, 255, 0);
+    transition: 2s;
+}
+.glav1 h1{
+    margin: 120px 10px 0px;
+    font-size: 60px;
+}
+.glav1 p{
+    margin: 20px 10px 0px;
+    font-size: 20px;
+}
+.glav1 input{
+    margin: 25px 10px 0px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px rgba(128, 128, 128, 0.63);
+}
+.glav1 input:hover{
+    font-size: 16px;
+    border: yellow 1px solid;
+    box-shadow: rgba(255, 0, 0, 0.432) 3px 3px 0px;
+    color: rgb(95, 90, 90);
+    transition: 0.5s;
+}
+.glav1 input:active{
+    font-size: 14px;
+    background-color: red;
+    border: red 1px solid;
+    box-shadow: rgba(255, 136, 0, 0.61) 3px 3px 0px;
+    color: rgb(219, 208, 208);
+}
+
+/* Sport Section */
+.middle{
+    margin: 20px 5px 0px 0px ;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.fhoto_1{
+    position:absolute;
+    left: 70px;
+    background-color: rgb(150, 150, 150);
+    width: 350px;
+    border: 1 solid rgb(150, 150, 150);
+    border-radius: 30px;
+}
+.im_01 img{
+    border: 1 solid rgb(150, 150, 150);
+    border-radius: 30px;
+}
+.fhoto_1 p{
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+.fhoto_1 a {
+    text-decoration: none;
+}
+.fhoto_1 a :hover{
+    text-decoration: underline;
+    font-size: 32px;
+    color: rgba(245, 164, 164, 0.63);
+}
+.fhoto_2{
+    position:absolute;
+    background-color: rgb(150, 150, 150);
+    width: 500px;
+    height: 567px;
+    border: 1 solid rgb(150, 150, 150);
+    border-radius: 30px;
+    display: inline-flex;
+}
+.im_02 img{
+    border: 1 solid rgb(150, 150, 150);
+    border-radius: 30px;
+    margin-right: 17px;
+}
+.im_03 img{
+    border-radius: 30px;
+    border: 1 solid rgb(150, 150, 150);
+}
+.fhoto_2 p{
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+.fhoto_2 a{
+    text-decoration: none;
+}
+.im_04 img{
+    border: 1 solid rgb(150, 150, 150);
+    border-radius: 30px;  
+}
+.fhoto_2 a :hover{
+    text-decoration: underline;
+    font-size: 32px;
+    color: rgba(245, 164, 164, 0.63);
+}
+.im_03 img{
+    transition: 0.3s;
+}
+
+.fhoto_3{
+    position: absolute;
+    right: 70px;
+    background-color: rgb(150, 150, 150);
+    width: 400px;
+    border: 1 solid rgb(150, 150, 150);
+    border-radius: 30px;
+}
+.im_04 img{
+    border: 1 solid rgb(150, 150, 150);
+    border-radius: 30px;
+}
+.fhoto_3 p{
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+.fhoto_3 a {
+    text-decoration: none;
+}
+.fhoto_3 a :hover{
+    text-decoration: underline;
+    font-size: 32px;
+    color: rgba(245, 164, 164, 0.63);
+}
+
+/* Footer */
+span{
+    color:red;
+}
+.footer{
+    position: relative;
+    top: 100%;
+    background-color: #2F2F2F;
+    width: 100%;
+    padding: 50px 0;
+    display: inline-flex;
+}
+.about_us{
+    margin-right: 100px;
+    margin-left: 30px;
+}
+.about_us h1{
+    color:whitesmoke;
+    text-align: center;
+}
+.about_us p{
+    color: gray;
+    text-align: center;
+}
+.news{
+    margin-right: 100px;
+}
+.news h1{
+    color: whitesmoke;
+    text-align: center;
+}
+.news p{
+    color: gray;
+    text-align: center;
+}
+#inp{
+    width: 350px;
+    background-color: indigo;
+    height: 20px;
+}
+#but{
+    background-color: rgb(88, 235, 88);
+}
+.follow{
+    margin-left: 30px;
+}
+
+.follow h1{
+    color: whitesmoke;
+    text-align: center;
+}
+.follow p{
+    color: gray;
+    text-align: center;
+}
+i{
+    font-size: 20px;
+    padding:5px;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    .ul_li a {
+        position: relative;
+        text-align: center;
+        padding: 0px 30px 0 30px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white; 
+    }
+    .ul_li a:hover {
+        font-size: 21px;
+        text-decoration: underline;
+        }
+        .glav1{
+            background-image: url(photos/krosovki02.jpg);
+            background-position-y: -150px;
+            background-position-x: -500px;
+            background-repeat: no-repeat;
+            height: 500px;
+            width: 1020px;
+        }
+        .glav1:hover{
+            background-image: url(photos/krosovki03.jpg);
+            background-position-y: -720px;
+            background-position-x: -1000px;
+            border: 1px solid rgb(255, 255, 0);
+            transition: 2s;
+        }
+        .glav1 h1{
+            margin: 120px 10px 0px;
+            font-size: 40px;
+        }
+        .glav1 p{
+            margin: 20px 10px 0px;
+            font-size: 15px;
+        }
+        .glav1 input{ 
+            font-size: 13px;
+        }
+        .glav1 input:hover{
+            font-size: 14px;
+        }
+            
+        .fhoto_1{
+            position:absolute;
+            left: 20px;
+            width: 200px;
+        }
+        .fhoto_1 p{
+            font-size: 20px;
+        }
+        .fhoto_1 a :hover{
+            text-decoration: underline;
+            font-size: 22px;
+        }
+        .fhoto_2{
+            display: none;
+        }
+        .fhoto_3{
+            
+            background-color: rgb(150, 150, 150);
+            width: 200px;
+            border: 1 solid rgb(150, 150, 150);
+            border-radius: 15px;
+        }
+        .fhoto_3 p{
+            font-size: 15px;
+           
+        }
+        .fhoto_3 a {
+            text-decoration: none;
+        }
+        .fhoto_3 a :hover{
+            text-decoration: underline;
+            font-size: 17px;
+            left: -100%;
+        }
+        .footer{
+            position: relative;
+            top: 100%;
+            width: 100%;
+            padding: 50px 0;
+        }
+        .about_us{
+            margin-right: 70px;
+            margin-left: 10px;
+        }
+        .news{
+            margin-right: 70px;
+        }
+        #inp{
+            width: 250px;
+            background-color: indigo;
+            height: 20px;
+        }
+        .follow{
+            margin-left: 25px;
+        }
+        i{
+            font-size: 15px;
+            padding: 3px;
+        }
+    }
+
+
+    @media only screen and(max-width: 812px){
+        .ul_li a {
+            position: relative;
+            text-align: center;
+            padding: 0px 30px 0 30px;
+            font-size: 12px;
+        }
+        .ul_li a:hover {
+            font-size: 15px;
+            text-decoration: underline;
+            }
+            .glav1{
+                background-image: url(photos/krosovki02.jpg);
+                background-position-y: -150px;
+                background-position-x: -700px;
+                background-repeat: no-repeat;
+                height: 500px;
+            }
+            .glav1:hover{
+                background-image: url(photos/krosovki03.jpg);
+                background-position-y: -720px;
+                background-position-x: -1200px;
+            }
+            .glav1 h1{
+                margin: 120px 10px 0px;
+                font-size: 20px;
+            }
+            .glav1 p{
+                margin: 10px 5px 0px;
+                font-size: 10px;
+            }
+            .glav1 input{ 
+                font-size: 7px;
+            }
+            .glav1 input:hover{
+                font-size: 8px;
+            }
+                
+            .fhoto_1{
+                width: 150px;
+                display: block;
+                
+            }
+            .fhoto_1 p{
+                font-size: 10px;
+            }
+            .fhoto_1 a :hover{
+                text-decoration: underline;
+                font-size: 11px;
+            }
+            .fhoto_2{
+                display: none;
+            }
+            .fhoto_3{
+                
+                background-color: rgb(150, 150, 150);
+                width: 200px;
+                
+            }
+            .fhoto_3 p{
+                font-size: 10px;
+               
+            }
+            .fhoto_3 a {
+                text-decoration: none;
+            }
+            .fhoto_3 a :hover{
+                text-decoration: underline;
+                font-size: 8px;
+                left: -100%;
+            }
+            .footer{
+                position: relative;
+                top: 100%;
+                width: 100%;
+                padding: 25px 0;
+            }
+            .about_us{
+                margin-right: 50px;
+                margin-left: 10px;
+            }
+            .news{
+                margin-right: 50px;
+            }
+            #inp{
+                width: 200px;
+                background-color: indigo;
+                height: 20px;
+            }
+            .follow{
+                margin-left: 25px;
+            }
+            i{
+                font-size: 10px;
+                padding: 3px;
+            }
+    }

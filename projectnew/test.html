@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+  $("#sp").click(function(){
+    $(".sportsuits").toggle(1000);
+  });
+});
+        $(document).ready(function(){
+       $("#shoes").click(function(){
+      $(".shoes").toggle(1000);
+  });
+});
+        $(document).ready(function(){
+       $("#sport").click(function(){
+      $(".sport").toggle(1000);
+  });
+});
+    </script>
+    <header class="main_header">
+        <nav class="main_header_nav">
+            <ul class="nav_ul">
+                <li class="ul_li">
+                    <a href=""> Home Page </a>
+                </li>
+            </ul>
+            <ul class="nav_ul">
+                <li class="ul_li">
+                    <a href=""> Womens's  </a>
+                </li>
+            </ul>
+            <ul class="nav_ul">
+                <li class=ul_li>
+                    <a href=""> Kid's </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="class">
+        <div class="Tommy">
+          <a href="#sp">  <img id="tommy" src="photos/tommy.jpg"  alt="Tommy" height="400px" width="680px"></a>
+        </div>
+        <div class="adidas">
+        <a href="#sp">   <img id="adidas" src="photos/adidas.png" alt="Adidas" height="400px" width="750px"></a>
+        </div> 
+    </div>
+    <div class="class2">
+        <div class="banda">
+            <a href="#sp"><img src="photos/banda1.jpg" alt="" width="750px" height="550px"></a>
+        </div>
+        <div class="rock">
+            <a href="#sp">   <img src="photos/nike.jpg" alt="" height="550px" width="680px"></a>
+        </div>
+    </div>
+   
+    <!-- suits -->
+    <button type="submit" id="sp">Sport Suit</button>
+    <div class="sportsuits">
+        <div class="ana">
+                <div class="im_03">
+                    <img src="photos/suit1.jpg" alt="" width="350px">
+                    <h4>49.9$</h4>
+                </div>
+                
+        </div>
+        <div class="ana">
+            <div class="im_03">
+                <img src="photos/suit1.webp" alt="" width="350px">
+                <h4>59.9$</h4>
+            </div>
+        </div>
+        <div class="ana">
+            <div class="im_03">
+                <img src="photos/suit2.jpg" alt="" width="350px">
+                <h4>59.9$</h4>
+            </div>
+        </div>
+        <div class="ana">
+            <div class="im_03">
+                <img src="photos/suit3.jpg" alt="" width="350px">
+                <h4>59.9$</h4>
+            </div>
+        </div>
+    </div>
+       <!-- Shoes -->
+       <button type="submit" id="shoes">Shoes</button>
+    <div class="shoes">
+        <div class="adad">
+              <img src="photos/Kros1.jpg" alt="" width="350px">
+              <h4>59.9$</h4>
+        </div>
+        <div class="adad">
+            <img src="photos/kros2.jfif" alt="" width="350px">
+            <h4>57.47$</h4>
+        </div>
+        <div class="adad">
+            <img src="photos/butsi.jpg" alt="" width="350px">
+            <h4>57.49$</h4>
+        </div>
+        <div class="adad">
+            <img src="photos/Kros3.jpg" alt="" width="350px">
+            <h4>52$</h4>
+        </div>
+    </div> 
+    <!--Sports -->
+      <button type="submit" id="sport">Sport</button>
+    <div class="sport">
+          <div class="nike">
+                <img src="photos/noski.jpg" alt="" width="350px">
+                <h4>57$</h4>
+          </div>
+          <div class="nike">
+            <img src="photos/ball.jpg" alt="" width="350px">
+            <h4>57$</h4>
+      </div>
+    </div>   
+   <button type="submit" id="button"><a href="file:///C:/Users/Nodirbek/Desktop/projectnew/index.html"><--Back</a> </button>
+    <footer class="footer">
+        <div class="about_us">
+             <h1>About Us </h1>
+             <p>^ Disclaimer Discounts apply to most recent previous ticketed advertised <br> price. Some products will have likely been sold below ticketed advertised <br> price in some stores priar to the discount offer. Prices displayed incluseive <br> of discount. Some in-store prices may vary.  </p>
+             <p>Copyright 2021 All riths reserved | This site is made with by <span>Alyara Abilbashar </span></p>
+        </div>
+        <div class="news">
+           <h1>Newsletter</h1>
+           <p>Stay Update </p>
+           <label for="">
+            <input id="inp" type="text" placeholder="Email" required="@"> <button id="but" type="submit">-></button>
+           </label>
+        </div>
+        <div class="follow">
+            <h1>Follow Us </h1>
+            <p>Let us be social </p>
+            <i class="fab fa-youtube" style="color: rgb(230, 41, 88);"></i>
+            <i class="fab fa-instagram" style="color: rgb(230, 41, 88);"></i>
+            <i class="fab fa-twitter" style="color: rgb(230, 41, 88);"></i>
+            <i class="fab fa-facebook-f" style="color: rgb(230, 41, 88);"></i>
+        </div>
+   </footer>
+</body>
+</html>

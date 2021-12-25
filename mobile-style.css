@@ -1,0 +1,42 @@
+@media only screen and (max-width: 360px) {
+*{
+		box-sizing: border-box;
+	}
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  .container text-center.row .col-md-5 .img {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-1 .cover {
+    background-position: -25vmin -10vmin;
+  }
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+ .purchase.cards{
+			
+	margin: 10px;
+	border: 0px solid black;
+	border-radius: 5px;
+	
+}
+}
+
+
+
+@media only screen and (max-width: 370px) {
+  
+  client.table {
+    width: 100%;
+  }
+}
+
+}

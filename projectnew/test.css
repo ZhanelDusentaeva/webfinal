@@ -1,0 +1,456 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", "Oranienbaum";
+    background-repeat: no-repeat;
+    background-color: rgb(142, 207, 44);
+    
+}
+   /* header */ 
+.main_header{
+      padding: 15px;
+      text-align: center;
+      background-color: #2F2F2F;
+}
+.nav_ul{
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.ul_li a {
+    position: relative;
+    text-align: center;
+    padding: 0px 70px 0 70px;
+    font-size: 30px;
+    justify-content: center;
+    text-decoration: none;
+    color: white; 
+}
+.ul_li a:hover {
+    font-size: 31px;
+    text-decoration: underline;
+    color: rgb(147, 233, 248);
+}
+
+ /* Main section */
+ .class{
+     display: flex;
+ }
+.Tommy{
+     display: inline-flex;
+     margin-left: 5px;
+     margin-top: 20px;
+     margin-right: 30px;
+     border: solid 1px rgb(136, 255, 0);
+}
+.Tommy :hover{
+     border: 2px solid blue;
+     width: 690px;
+     height: 410px;
+     transition: 0.4s;
+}
+.adidas{
+    border: solid 1px rgb(136, 255, 0);
+    margin-top: 20px;
+}
+.adidas :hover{
+    border: 2px solid blue;
+    width: 760px;
+    height: 410px;
+    transition: 0.4s;
+}
+.class2{
+    display: flex;
+}
+.banda{
+   border: solid 1px rgb(136, 255, 0);
+   margin-top: 10px;
+   margin-left: 5px;
+}
+.banda :hover{
+    border: solid 2px blue;
+    height: 560px;
+    width: 760px;
+    transition: 0.4s;
+}
+.rock{
+    margin-top: 10px;
+    margin-left: 30px;
+    border: solid 1px rgb(136, 255, 0);
+}
+.rock :hover{
+    border: solid 2px blue;
+    width: 690px;
+    height: 560px;
+    transition: 0.4s;
+}
+
+/*  Photos */
+.sportsuits{
+    margin: 20px 0px 0px 0px ;
+    display: inline-flex;
+    justify-content: space-around;   
+}
+
+.ana{
+    border: 1 solid rgb(150, 150, 150);
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.ana h4{
+    font-size: 30px;
+    text-align: center;
+}
+.im_03 img{
+    border: 1 solid rgb(150, 150, 150);
+    border-radius: 30px;
+}
+
+.im_03  :hover{
+    border: blue solid 2px;
+    width: 355px;
+}
+
+
+#ab{
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* Shoes */ 
+.sh{
+    text-align: center;
+    color: whitesmoke;
+}
+.shoes{
+    display: inline-flex;
+    border: 1 solid rgb(150, 150, 150);
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.adad img{
+    border-radius: 35px;
+    border: 1 solid rgb(150, 150, 150);
+    width: 350px;
+    height: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.adad :hover{
+    border: blue solid 2px;
+    width: 355px;
+}
+.adad h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Sport */ 
+.sport{
+    display: inline-flex;
+    border: 1 solid rgb(150, 150, 150);
+    border-radius: 30px;
+}
+.nike img{
+    border-radius: 35px;
+    border: 1 solid rgb(150, 150, 150);
+    width: 350px;
+    height: 250px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.nike :hover{
+    border: blue solid 2px;
+    width: 355px;
+}
+.nike h4{
+    text-align: center;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+/* Footer */
+span{
+    color:red;
+}
+.footer{
+    position: relative;
+    top: 100%;
+    background-color: #2F2F2F;
+    width: 100%;
+    padding: 50px 0;
+    display: inline-flex;
+}
+.about_us{
+    margin-right: 100px;
+    margin-left: 30px;
+}
+.about_us h1{
+    color:whitesmoke;
+    text-align: center;
+}
+.about_us p{
+    color: gray;
+    text-align: center;
+}
+.news{
+    margin-right: 100px;
+}
+#sp{
+    margin-left: 700px;
+    font-size: 20px;
+}
+.news p{
+    color: gray;
+    text-align: center;
+}
+#inp{
+    width: 350px;
+    background-color: indigo;
+    height: 20px;
+}
+#but{
+    background-color: rgb(88, 235, 88);
+}
+.follow{
+    margin-left: 30px;
+}
+
+.follow h1{
+    color: whitesmoke;
+    text-align: center;
+}
+.follow p{
+    color: gray;
+    text-align: center;
+}
+i{
+    font-size: 20px;
+    padding:5px;
+}
+
+#button {
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+#button a{
+    text-decoration: none;
+}
+#button :hover{
+     color: rgb(150, 150, 150);
+     transition: 0.4s;
+     font-size: 21px;
+}
+#shoes{
+    margin-left: 700px;
+    font-size: 20px;
+}
+#sport{
+    margin-left: 700px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:1024px){
+    .ul_li a {
+        font-size: 20px;
+        justify-content: center;
+        text-decoration: none; 
+    }
+    .ul_li a:hover {
+        font-size: 21px;
+        text-decoration: underline;
+        color: rgb(147, 233, 248);
+    }
+    
+     /* Main section */
+    .Tommy{
+         width: 600px;
+    }
+    .Tommy :hover{
+         width: 600px;
+         height: 410px;
+         transition: 0.4s;
+    }
+    .adidas{
+        margin-top: 20px;
+        width: 500px;
+        height: auto;
+    }
+    .adidas :hover{
+        border: 2px solid blue;
+        width: 700px;
+        height: 400px;
+        transition: 0.4s;
+    }
+    
+    /*  Photos */
+    .sportsuits{
+        margin: 20px 0px 0px 0px ;
+        display: inline-flex;
+        justify-content: space-around;   
+    }
+    
+    .ana{
+        border: 1 solid rgb(150, 150, 150);
+        border-radius: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .ana h4{
+        font-size: 20px;
+        text-align: center;
+    }
+    .im_03 img{
+        border: 1 solid rgb(150, 150, 150);
+        border-radius: 20px;
+        width: 300px;
+    }
+    
+    .im_03  :hover{
+        border: blue solid 2px;
+        width: 350px;
+    }
+    .shoes{
+        display: inline-flex;
+        border: 1 solid rgb(150, 150, 150);
+        border-radius: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .adad img{
+        border-radius: 35px;
+        border: 1 solid rgb(150, 150, 150);
+        width: 300px;
+        height: 200px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .adad :hover{
+        border: blue solid 2px;
+        width: 290px;
+    }
+    .adad h4{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    /* Sport */ 
+    .sport{
+        display: inline-flex;
+        border: 1 solid rgb(150, 150, 150);
+        border-radius: 30px;
+    }
+    .nike img{
+        border-radius: 35px;
+        border: 1 solid rgb(150, 150, 150);
+        width: 350px;
+        height: 250px;
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+    .nike :hover{
+        border: blue solid 2px;
+        width: 355px;
+    }
+    .nike h4{
+        text-align: center;
+        font-size: 20px;
+    }
+    h1{
+        text-align: center;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    /* Footer */
+    .footer{
+        position: relative;
+        top: 100%;
+        background-color: #2F2F2F;
+        width: 100%;
+        padding: 50px 0;
+        display: inline-flex;
+    }
+    .about_us{
+        margin-right: 50px;
+        margin-left: 20px;
+    }
+    .about_us h1{
+        color:whitesmoke;
+        text-align: center;
+    }
+    .about_us p{
+        color: gray;
+        text-align: center;
+    }
+    .news{
+        margin-right: 50px;
+    }
+    #sp{
+        margin-left:700px;
+        font-size: 15px;
+    }
+    .news p{
+        color: gray;
+        text-align: center;
+    }
+    #inp{
+        width: 300px;
+        background-color: indigo;
+        height: 20px;
+    }
+    #but{
+        background-color: rgb(88, 235, 88);
+    }
+    .follow{
+        margin-left: 20px;
+    }
+    
+    .follow h1{
+        color: whitesmoke;
+        text-align: center;
+    }
+    .follow p{
+        color: gray;
+        text-align: center;
+    }
+    i{
+        font-size: 15px;
+        padding:5px;
+    }
+    
+    #button {
+        padding: 10px;
+        margin: 20px;
+        font-size: 15px;
+    }
+    #button a{
+        text-decoration: none;
+    }
+    #button :hover{
+         color: rgb(150, 150, 150);
+         transition: 0.4s;
+         font-size: 21px;
+    }
+    #shoes{
+        margin-left: 700px;
+        font-size: 15px;
+    }
+    #sport{
+        margin-left: 700px;
+        font-size: 15px;
+    }
+}
+
+
